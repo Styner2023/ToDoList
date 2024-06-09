@@ -1,6 +1,3 @@
-Sure! Here’s a detailed README.md template for your ToDoList project:
-
-```markdown
 # ToDoList Application
 
 Welcome to my ToDoList application! This project showcases my skills in C++ through the development of a comprehensive task management application. The application features task creation, editing, and deletion, with a focus on a user-friendly interface and efficient performance.
