@@ -97,5 +97,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
    - Scroll down to the bottom of the page.
    - Add a commit message (e.g., "Update README with project details").
    - Click "Commit changes".
-
-This README.md will provide a comprehensive overview of your ToDoList project, making it easy for visitors to understand and navigate your work.
