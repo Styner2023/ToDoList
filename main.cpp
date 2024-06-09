@@ -49,3 +49,14 @@ int main() {
         }
     }
 }
+std::cout << "About to remove task.\n";
+todoList.removeTask(index - 1);
+std::cout << "Task removed.\n";std::cout << "About to remove task.\n";
+todoList.removeTask(index - 1);
+std::cout << "Task removed.\n";std::cout << "About to remove task.\n";
+todoList.removeTask(index - 1);
+std::cout << "Task removed.\n";std::cout << "About to remove task.\n";
+todoList.removeTask(index - 1);
+std::cout << "Task removed.\n";std::cout << "About to remove task.\n";
+todoList.removeTask(index - 1);
+std::cout << "Task removed.\n";
