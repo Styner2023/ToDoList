@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>ToDo List</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>ToDo List</h1>
-    <form id="todo-form">
-        <input type="text" id="task-input" placeholder="Enter a new task">
-        <button type="submit">Add Task</button>
-    </form>
-    <ul id="task-list"></ul>
-    <script src="js/script.js"></script>
+  <h1>ToDo List</h1>
+  <input type="text" id="taskInput" placeholder="Enter a new task">
+  <button onclick="addTask()">Add Task</button>
+  <ul id="taskList"></ul>
+
+  <script>
+    function addTask() {
+      const taskInput = document.getElementById('taskInput');
+      const taskList = document.getElementById('taskList');
+      const task = taskInput.value;
+
+      if (task) {
+        const listItem = document.createElement('li');
+        listItem.textContent = task;
+
+        // Add a remove button
+        const removeButton = document.createElement('button');
+        removeButton.textContent = 'Remove';
+        removeButton.onclick = () => {
+          taskList.removeChild(listItem);
+        };
+
+        listItem.appendChild(removeButton);
+        taskList.appendChild(listItem);
+        taskInput.value = '';
+      }
+    }
+  </script>
 </body>
 </html>
