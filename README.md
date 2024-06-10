@@ -79,21 +79,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 - Special thanks to the C++ community for their valuable contributions and support.
-```
-
-### Steps to Update the README.md
-1. **Navigate to Your Repository**:
-   - Go to your GitHub profile.
-   - Click on the `ToDoList` repository.
-
-2. **Edit README.md**:
-   - Click on the README.md file in your repository.
-   - Click on the pencil icon (✏️) to edit the file.
-
-3. **Replace the Existing Content with the Updated Content**:
-   - Copy and paste the updated content above into your README.md file.
-
-4. **Commit the Changes**:
-   - Scroll down to the bottom of the page.
-   - Add a commit message (e.g., "Update README with project details").
-   - Click "Commit changes".
