@@ -26,56 +26,13 @@ This ToDoList application is a task management tool built with C++. It allows us
 
 ## Technologies Used
 - **Programming Language**: C++
+- **Web Technologies**: HTML, CSS, JavaScript, Node.js, Express
 
 ## Installation
+
+### Console Application
 
 Clone the repository:
 ```bash
 git clone https://github.com/Styner2023/ToDoList.git
 cd ToDoList
-```
-
-Compile the project:
-```bash
-g++ -o ToDoList main.cpp task.cpp tasklist.cpp
-```
-
-Run the application:
-```bash
-./ToDoList
-```
-
-## Usage
-
-1. **Create a Task**: Follow the prompts to create a new task.
-2. **Edit a Task**: Select a task from the list to edit.
-3. **Delete a Task**: Select a task from the list to delete.
-4. **View Tasks**: View all tasks in a list format.
-
-## Project Structure
-```
-ToDoList/
-├── main.cpp
-├── task.cpp
-├── task.h
-├── tasklist.cpp
-├── tasklist.h
-└── README.md
-```
-
-## Contributing
-
-Contributions are welcome! Please follow the contributing guidelines.
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Special thanks to the C++ community for their valuable contributions and support.
