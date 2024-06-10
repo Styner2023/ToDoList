@@ -1,0 +1,24 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Welcome to my ToDoList application! This project showcases my skills in C++ through the development of a comprehensive task management application. The application features task creation, editing, and deletion, with a focus on a user-friendly interface and efficient performance.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Styner2023/ToDoList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Styner2023/ToDoList/issues"
+  },
+  "homepage": "https://github.com/Styner2023/ToDoList#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
